@@ -1,0 +1,121 @@
+/* Mise en page générale */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style du header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Section d'introduction */
+.intro {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.intro h2 {
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Section d'images */
+.image {
+    text-align: center;
+    margin: 10px;
+    width: 1000px;
+
+}
+
+.image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section des applications */
+.applications {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.applications ul {
+    list-style-type:circle;
+    padding-left: 20px;
+}
+
+.applications li {
+    margin-bottom: 10px;
+}
+
+.histoire {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: relative; /* Ou absolute si nécessaire */
+    z-index: 1; /* Assure-toi que le footer n'a pas un z-index trop élevé */
+}
+
+.item1{
+
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.item2{
+
+}
+
+.item3{
+margin-right: 30px;
+}
+
+.titleStyle{
+font-size: 35px;
+font-weight: bold;
+}
